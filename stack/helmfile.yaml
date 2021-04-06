@@ -4,10 +4,10 @@ releases:
     values:
       - a/values.gotmpl
   - name: b
-    chart: a/chart_a
+    chart: b/chart_b
     values:
       - a/values.gotmpl
   - name: c
-    chart: a/chart_a
+    chart: c/chart_c
     values:
       - a/values.gotmpl

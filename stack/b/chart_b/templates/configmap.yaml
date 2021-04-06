@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: svc-a-configmap
+  name: svc-b-configmap
 data:
   REPLICAS: {{ .Values.replicas }}
   HOSTNAME: {{ .Values.hostname }}

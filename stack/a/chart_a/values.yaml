@@ -1,2 +1,2 @@
-hostname: test.local
+hostname: a.test.local
 replicas: 1

@@ -9,21 +9,21 @@ data:
   HOSTNAME: a.prod.domain
 
 ---
-# Source: svc_a/templates/configmap.yaml
+# Source: svc_b/templates/configmap.yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: svc-a-configmap
+  name: svc-b-configmap
 data:
   REPLICAS: 1
   HOSTNAME: a.prod.domain
 
 ---
-# Source: svc_a/templates/configmap.yaml
+# Source: svc_c/templates/configmap.yaml
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: svc-a-configmap
+  name: svc-c-configmap
 data:
   REPLICAS: 1
   HOSTNAME: a.prod.domain
