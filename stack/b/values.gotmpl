@@ -1,4 +1,4 @@
-{{- with merge .Values .Values.b }}
+{{- with mergeOverwrite .Values .Values.b }}
 hostname: {{ .hostname }}
 replicas: {{ .replicas }}
 {{- end }}
