@@ -6,8 +6,8 @@ releases:
   - name: b
     chart: b/chart_b
     values:
-      - a/values.gotmpl
+      - b/values.gotmpl
   - name: c
     chart: c/chart_c
     values:
-      - a/values.gotmpl
+      - c/values.gotmpl
