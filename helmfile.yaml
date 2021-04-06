@@ -1,0 +1,6 @@
+---
+helmfiles:
+  - path: stack/helmfile.yaml
+    values:
+      - stack/default.yaml
+      - production.yaml

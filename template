@@ -1,0 +1,30 @@
+---
+# Source: svc_a/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: svc-a-configmap
+data:
+  REPLICAS: 1
+  HOSTNAME: a.prod.domain
+
+---
+# Source: svc_a/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: svc-a-configmap
+data:
+  REPLICAS: 1
+  HOSTNAME: a.prod.domain
+
+---
+# Source: svc_a/templates/configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: svc-a-configmap
+data:
+  REPLICAS: 1
+  HOSTNAME: a.prod.domain
+

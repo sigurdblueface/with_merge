@@ -1,0 +1,13 @@
+releases:
+  - name: a
+    chart: a/chart_a
+    values:
+      - a/values.gotmpl
+  - name: b
+    chart: a/chart_a
+    values:
+      - a/values.gotmpl
+  - name: c
+    chart: a/chart_a
+    values:
+      - a/values.gotmpl

@@ -1,0 +1,4 @@
+{{- with merge .Values .Values.c }}
+hostname: {{ .hostname }}
+replicas: {{ .replicas }}
+{{- end }}

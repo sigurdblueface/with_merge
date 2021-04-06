@@ -1,0 +1,9 @@
+a:
+  replicas: 1
+  hostname: a.local
+b: 
+  replicas: 1
+  hostname: b.local
+c:
+  replicas: 1
+  hostname: c.local

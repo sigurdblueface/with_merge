@@ -1,0 +1,9 @@
+a:
+  replicas: 1
+  hostname: a.prod.domain
+b: 
+  replicas: 3
+  hostname: b.prod.domain
+c:
+  replicas: 5
+  hostname: c.prod.domain
